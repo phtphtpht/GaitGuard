@@ -1,0 +1,16 @@
+pretrained_base_model_path: "/home/xk/pht/Moore-AnimateAnyone_modified/pretrained_weights/stable-diffusion-v1-5/"
+pretrained_vae_path: "/home/xk/pht/Moore-AnimateAnyone_modified/pretrained_weights/sd-vae-ft-mse"
+image_encoder_path: "/home/xk/pht/Moore-AnimateAnyone_modified/pretrained_weights/image_encoder"
+denoising_unet_path: "/home/xk/pht/Moore-AnimateAnyone_modified/pretrained_weights/denoising_unet.pth"
+reference_unet_path: "/home/xk/pht/Moore-AnimateAnyone_modified/pretrained_weights/reference_unet.pth"
+pose_guider_path: "/home/xk/pht/Moore-AnimateAnyone_modified/pretrained_weights/pose_guider.pth"
+motion_module_path: "/home/xk/pht/Moore-AnimateAnyone_modified/pretrained_weights/motion_module.pth"
+inference_config: "./configs/inference/inference_v2.yaml"
+weight_dtype: "fp16"
+test_cases:
+
+ "/home/xk/pht/Moore-AnimateAnyone-ref-clip-fuse/configs/inference/ref_images/anyone-11.png":
+  - "/home/xk/pht/Moore-AnimateAnyone-ref-clip-fuse/configs/inference/ref_images/anyone-3.png"
+  - "/home/xk/pht/data/mydataset/pht_kps/pht-000_kps.mp4"
+  - "/home/xk/pht/data/mydataset/wxdwalk_kps.mp4"
+
