@@ -45,3 +45,6 @@ $F_i' = GaitGuard(F_i, P_I, P_R, I_I, I_R)$
 where $F_i'$ represents the anonymized video frame.
 
 ## 4. How to use?
+
+## 5. Reference
+
